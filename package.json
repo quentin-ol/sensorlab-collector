@@ -1,0 +1,29 @@
+{
+  "name": "sensorlab-collector",
+  "version": "1.0.0",
+  "description": "collect logs of a sensorlab experiment",
+  "main": "sensorlab-collector",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sensorlab",
+    "experiment",
+    "collector",
+    "mqtt"
+  ],
+  "author": "Quentin Lampin <quentin.lampin@orange.com>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "binary": "^0.3.0",
+    "debug": "^2.2.0",
+    "mqtt-q": "^1.1.0",
+    "q": "^1.4.1",
+    "sanitize-filename": "^1.6.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-eslint": "^18.1.0",
+    "grunt-jsdoc": "^2.1.0"
+  }
+}
